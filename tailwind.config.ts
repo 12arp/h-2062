@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -24,20 +25,53 @@ export default {
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
-        primary: "#141413",
-        secondary: "#828179",
-        accent: "#8989DE",
-        neutral: {
-          50: "#FAFAF8",
-          100: "#F0EFEA",
-          200: "#E6E4DD",
-          300: "#C4C3BB",
-          400: "#A3A299",
-          500: "#605F5B",
-          600: "#3A3935",
-          700: "#23241F",
-          800: "#191919",
-          900: "#141413",
+        primary: {
+          DEFAULT: "#3b82f6",
+          foreground: "#ffffff",
+          50: "#eff6ff",
+          100: "#dbeafe",
+          200: "#bfdbfe",
+          300: "#93c5fd",
+          400: "#60a5fa",
+          500: "#3b82f6",
+          600: "#2563eb",
+          700: "#1d4ed8",
+          800: "#1e40af",
+          900: "#1e3a8a",
+        },
+        secondary: {
+          DEFAULT: "#f97316",
+          foreground: "#ffffff",
+          50: "#fff7ed",
+          100: "#ffedd5",
+          200: "#fed7aa",
+          300: "#fdba74",
+          400: "#fb923c",
+          500: "#f97316",
+          600: "#ea580c",
+          700: "#c2410c",
+          800: "#9a3412",
+          900: "#7c2d12",
+        },
+        accent: {
+          DEFAULT: "#8b5cf6",
+          foreground: "#ffffff",
+        },
+        destructive: {
+          DEFAULT: "hsl(0 72% 51%)",
+          foreground: "#ffffff",
+        },
+        muted: {
+          DEFAULT: "hsl(210 40% 96.1%)",
+          foreground: "hsl(215.4 16.3% 46.9%)",
+        },
+        popover: {
+          DEFAULT: "hsl(0 0% 100%)",
+          foreground: "hsl(222.2 47.4% 11.2%)",
+        },
+        card: {
+          DEFAULT: "hsl(0 0% 100%)",
+          foreground: "hsl(222.2 47.4% 11.2%)",
         },
       },
       borderRadius: {
@@ -57,12 +91,17 @@ export default {
         float: {
           '0%, 100%': { transform: 'translateY(0)' },
           '50%': { transform: 'translateY(-10px)' },
+        },
+        pulse: {
+          '0%, 100%': { opacity: '1' },
+          '50%': { opacity: '0.5' },
         }
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         "float": "float 6s ease-in-out infinite",
+        "pulse": "pulse 3s ease-in-out infinite",
       },
     },
   },
