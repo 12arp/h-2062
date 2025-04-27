@@ -12,7 +12,6 @@ const config = {
   theme: {
     extend: {
       colors: {
-        // Add colors from the logo
         primary: {
           DEFAULT: '#000000', // Black from logo background
           '50': '#F5F5F5',
