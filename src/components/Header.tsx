@@ -1,4 +1,3 @@
-
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import Logo from "./Logo";
@@ -16,6 +15,9 @@ const Header = () => {
         <div className="hidden md:flex items-center gap-8">
           <a href="#about" className="text-gray-700 hover:text-primary transition-colors">
             About Us
+          </a>
+          <a href="#founder" className="text-gray-700 hover:text-primary transition-colors">
+            Our Founder
           </a>
           <a href="#teachers" className="text-gray-700 hover:text-primary transition-colors">
             Our Teachers
@@ -47,6 +49,9 @@ const Header = () => {
           <div className="container-padding py-4 flex flex-col gap-4">
             <a href="#about" className="text-gray-700 hover:text-primary py-2 transition-colors">
               About Us
+            </a>
+            <a href="#founder" className="text-gray-700 hover:text-primary py-2 transition-colors">
+              Our Founder
             </a>
             <a href="#teachers" className="text-gray-700 hover:text-primary py-2 transition-colors">
               Our Teachers
