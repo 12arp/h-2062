@@ -1,6 +1,7 @@
 
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import Logo from "./Logo";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -9,7 +10,7 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-white shadow-sm">
       <nav className="container-padding mx-auto flex h-20 items-center justify-between">
         <a href="/" className="flex items-center gap-2">
-          <span className="text-2xl font-bold text-primary">5<span className="text-secondary">Vowels</span></span>
+          <Logo />
         </a>
         
         <div className="hidden md:flex items-center gap-8">
