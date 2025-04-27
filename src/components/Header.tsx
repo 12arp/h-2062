@@ -17,6 +17,9 @@ const Header = () => {
           <a href="#about" className="text-gray-700 hover:text-primary transition-colors">
             About Us
           </a>
+          <a href="#teachers" className="text-gray-700 hover:text-primary transition-colors">
+            Our Teachers
+          </a>
           <a href="#approach" className="text-gray-700 hover:text-primary transition-colors">
             Our Approach
           </a>
@@ -44,6 +47,9 @@ const Header = () => {
           <div className="container-padding py-4 flex flex-col gap-4">
             <a href="#about" className="text-gray-700 hover:text-primary py-2 transition-colors">
               About Us
+            </a>
+            <a href="#teachers" className="text-gray-700 hover:text-primary py-2 transition-colors">
+              Our Teachers
             </a>
             <a href="#approach" className="text-gray-700 hover:text-primary py-2 transition-colors">
               Our Approach
