@@ -1,4 +1,3 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -8,7 +7,11 @@
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 222.2 47.4% 11.2%;
+    --foreground: 0 0% 0%; /* Black from logo */
+    --primary: 0 0% 0%; /* Black */
+    --primary-foreground: 39 84% 67%; /* Gold/Yellow foreground */
+    --secondary: 39 84% 67%; /* Gold/Yellow */
+    --secondary-foreground: 0 0% 0%; /* Black foreground */
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
     --ring: 222.2 84% 4.9%;
